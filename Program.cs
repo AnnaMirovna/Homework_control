@@ -31,4 +31,11 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+Console.Write("Input any 5 words or number separated by an Enter: ");
+string[] Array = ArrayString(5);
+string[] myArray = SecondArrayThreeElements(Array);
+Console.WriteLine("Your array string with elements whose length is less than or equal to 3 characters: ");
+PrintArray(myArray);
+
+
 
